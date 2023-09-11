@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hot Meals</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <header>
+      <p id="logo">Hot meals</p>
+
+      <p id="address">
+        <strong>Deliver to: </strong>
+        <span>
+          <i class="fa-solid fa-location-dot" style="color: #ffb329"></i>
+        </span>
+
+        Current Location <strong>Ashok Nagar, Chennai-600013 </strong>
+      </p>
+
+      <p>
+        <span>
+          <i
+            class="fa-solid fa-magnifying-glass"
+            style="color: #ffb30e"
+          ></i> </span
+        ><strong> Search Food</strong>
+      </p>
+
+      <button class="btn-popup" id="login-popup">
+        <span><i class="fa-solid fa-user" style="color: #ffb30e"></i></span
+        >Login
+      </button>
+    </header>
+
+    <div class="wrapper">
+      <p id="logo">Hot meals</p><i id="xmark" class="fa-solid fa-xmark" style="color: #ffffff;"></i>
+      <h3>Welcome Back</h3>
+      <h4>Log in with your email address and password.</h4>
+      <div class="form-box login">
+        <form action="#">
+          <h6>Email Address:</h6>
+          <div class="login-box"><i class="fa-solid fa-envelope" style="color: #FDBE35"></i>
+          <input type="email" name="" placeholder="Enter your Email Address" /></div>  
+                  <h6>Password:</h6>
+                  <div class="login-box">
+
+          <i class="fa-solid fa-lock" style="color: #fdbe35;"></i>
+
+          <input type="password" name="" placeholder="Enter your Password" /></div>
+
+          </div>
+          <div class="remember-forget">
+            <label><input type="checkbox">Remember Me</label>
+            <a href="#">Forget Passowrd?</a>
+          </div>
+          <button type="submit" class="login-btn">LOGIN</button>
+          <div class="signup">
+            <p>Don't have an account?<a href="#" class="signup">Sign Up</a></p>
+          </div>
+         
+        </form>
+        <div id="login-image">
+          <img src="./asset/loginpic.png" alt="loginpic" />
+        </div>
+       
+        
+      </div>
+    
+    <div class="background-box">
+      <p id="firstline">Look at your fav Meals</p>
+      <p id="secondline">
+        Within a few clicks, find meals that are accessible near you
+      </p>
+      <br />
+      <br />
+      <div>
+        <div class="outer-container">
+          <div class="inner-container">
+            <button id="btn1">
+              <span
+                ><i
+                  class="fa-solid fa-motorcycle"
+                  style="color: #f17228"
+                ></i></span
+              >Delivery
+            </button>
+            <button id="btn2">
+              <span
+                ><i
+                  class="fa-solid fa-bag-shopping"
+                  style="color: #757575"
+                ></i></span
+              >Pickup
+            </button>
+          </div>
+        </div>
+
+        <div class="outer-container2">
+          <div class="box">
+            <i class="fa-solid fa-location-dot" style="color: #ffb329"></i>
+
+            <input type="text" name="" placeholder="Enter your Address" />
+          </div>
+          <button id="btn3">
+            <span>
+              <i
+                class="fa-solid fa-magnifying-glass"
+                style="color: #ffffff"
+              ></i>
+            </span>
+            <div style="display: flex; flex-direction: row; width: max-content">
+              Find Food
+            </div>
+          </button>
+
+          <div class="hero-image">
+            <img src="./asset/hero pic.png" alt="heropic" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="dish-container">
+      <div class="image-box">
+        <img id="vada" src="./asset/vadai=.png" alt="" />
+        <p id="dish">Vada</p>
+        <button id="speed">30 mins Delivery</button>
+      </div>
+      <div class="image-box1">
+        <img id="idly" src="./asset/idly.png" alt="" />
+        <p id="dish">Idly</p>
+        <button id="speed1">30 mins Delivery</button>
+      </div>
+      <div class="image-box2">
+        <img id="parotta" src="./asset/parotta.png" alt="" />
+        <p id="dish">Parotta</p>
+        <button id="speed2">30 mins Delivery</button>
+      </div>
+      <div class="image-box3">
+        <img id="kichadi" src="./asset/kichadi.png" alt="" />
+        <p id="dish">Kichadi</p>
+        <button id="speed3">30 mins Delivery</button>
+      </div>
+    </div>
+    <h1 id="how">How does it work</h1>
+    <div class="features-box">
+      <div class="icon-box">
+        <img id="discount-icon" src="./asset/Icon-percentage.png" />
+        <p id="discount-text">Daily Discounts</p>
+      </div>
+      <div class="icon-box1">
+        <img id="live-icon" src="./asset/tracking Icon.png" />
+        <p id="live-text">Live Tracking</p>
+      </div>
+      <div class="icon-box2">
+        <img id="quick-icon" src="./asset/quick Icon.png" />
+        <p id="quick-text">Quick Delivery</p>
+      </div>
+    </div>
+    <div class="grey-container">
+      <h1>Search By Food</h1>
+      <div class="img-container">
+        <div class="img-round">
+          <img id="dosa" src="./asset/dosa.png" />
+          <p id="dish-name">Dosa</p>
+        </div>
+        <div class="img-round1">
+          <img id="aapam" src="./asset/aapam.png" />
+          <p id="dish-name">Aapam</p>
+        </div>
+        <div class="img-round2">
+          <img id="puttu" src="./asset/puttu.png" />
+          <p id="dish-name">Puttu</p>
+        </div>
+        <div class="img-round3">
+          <img id="idiyappam" src="./asset/idiyappam.png" />
+          <p id="dish-name">Idiyappam</p>
+        </div>
+        <div class="img-round4">
+          <img id="vegricw" src="./asset/veg ricw.png" />
+          <p id="dish-name">Veg Rice</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="text-box">
+      <h1 class="two-colored-text">
+        Best Deals<span class="highlight-color">Crispy Diffen</span>
+      </h1>
+      <p id="tagline">
+        Enjoy the large size of Dosa. Complete perfect slice of Dosa.
+      </p>
+    </div>
+    <a href="order.html"  id="orderplace-btn">
+      PLACE YOUR ORDER
+      <span
+        ><i class="fa-solid fa-chevron-right" style="color: #ffffff"></i
+      ></span>
+    </a>
+    <div class="dosa-image">
+      <img id="dosalarge" src="asset/dosa large.png" alt="heropic" />
+    </div>
+    <h1 id="popular">Popular Items</h1>
+    <div class="popular-items1">
+      <div class="product-card">
+        <img
+          src="./asset/murukku.png"
+          alt="Product Image"
+          class="product-image"
+        />
+        <h2 class="product-name">Murruku</h2>
+        <a href="#" class="order-button">Order Now</a>
+      </div>
+      <div class="product-card1">
+        <img
+          src="./asset/paniyaram.png"
+          alt="Product Image"
+          class="product-image1"
+        />
+        <h2 class="product-name1">Paniyaram</h2>
+        <a href="#" class="order-button1">Order Now</a>
+      </div>
+      <div class="product-card2">
+        <img
+          src="./asset/seval murrku.png"
+          alt="Product Image"
+          class="product-image2"
+        />
+        <h2 class="product-name2">Seeval Murruku</h2>
+        <a href="#" class="order-button2">Order Now</a>
+      </div>
+      <div class="product-card3">
+        <img
+          src="./asset/mixture.png"
+          alt="Product Image"
+          class="product-image3"
+        />
+        <h2 class="product-name3">Mixture</h2>
+        <a href="#" class="order-button3">Order Now</a>
+      </div>
+      <div class="product-card4">
+        <img
+          src="./asset/Veg soup.png"
+          alt="Product Image"
+          class="product-image4"
+        />
+        <h2 class="product-name4">Veg Soup</h2>
+        <a href="#" class="order-button4">Order Now</a>
+      </div>
+    </div>
+    <div class="popular-items2">
+      <div class="product-card">
+        <img
+          src="./asset/gulab jammun.png"
+          alt="Product Image"
+          class="product-image"
+        />
+        <h2 class="product-name">Gulab Jammun</h2>
+        <a href="#" class="order-button">Order Now</a>
+      </div>
+      <div class="product-card1">
+        <img
+          src="./asset/porivellangai Urundai.png"
+          alt="Product Image"
+          class="product-image1"
+        />
+        <h2 class="product-name1">Porivellangai Urundai</h2>
+        <a href="#" class="order-button1">Order Now</a>
+      </div>
+      <div class="product-card2">
+        <img
+          src="./asset/Jangri.png"
+          alt="Product Image"
+          class="product-image2"
+        />
+        <h2 class="product-name2">Jangri</h2>
+        <a href="#" class="order-button2">Order Now</a>
+      </div>
+      <div class="product-card3">
+        <img
+          src="./asset/lattu.png"
+          alt="Product Image"
+          class="product-image3"
+        />
+        <h2 class="product-name3">Lattu</h2>
+        <a href="#" class="order-button3">Order Now</a>
+      </div>
+      <div class="product-card4">
+        <img
+          src="./asset/halwa.png"
+          alt="Product Image"
+          class="product-image4"
+        />
+        <h2 class="product-name4">Veg Soup</h2>
+        <a href="#" class="order-button4">Order Now</a>
+      </div>
+    </div>
+    <div class="footer">
+      <div class="vertical-line"></div>
+      <div class="company-box">
+        <h4>Company</h4>
+        <p>About Us</p>
+        <p>Team</p>
+        <p>Careers</p>
+        <p>Blog</p>
+      </div>
+      <div class="contact-box">
+        <h4>Contact</h4>
+        <p>Help & Support</p>
+        <p>Partner with us</p>
+        <p>Ride with us</p>
+      </div>
+      <div class="legal-box">
+        <h4>Legal</h4>
+        <p>Terms & Conditions</p>
+        <p>Refund & Cancellation</p>
+        <p>Privacy Policy</p>
+        <p>Cookie Policy</p>
+      </div>
+      <div class="follow">
+        <h4>FOLLOW US</h4>
+        <div class="social-icon">
+          <i class="fa-brands fa-instagram" style="color: #f5f5f5"></i>
+          <i class="fa-brands fa-facebook" style="color: #f5f5f5"></i>
+          <i class="fa-brands fa-twitter" style="color: #f5f5f5"></i>
+        </div>
+        <div class="input-email">
+          <h4>Receive exclusive offers in your mailbox</h4>
+        </div>
+        <div class="email-box">
+          <i class="fa-solid fa-envelope" style="color: #adadad"></i>
+
+          <input type="text" name="" placeholder="Enter your Email" />
+        </div>
+        <button id="btn4">
+          <div style="display: flex; flex-direction: row; width: max-content">
+            Subscribe
+          </div>
+        </button>
+      </div>
+      <div class="vertical-line"></div>
+      <h5 class="rights">
+        All rights Reserved
+        <i class="fa-regular fa-copyright" style="color: #ffffff"></i>
+      </h5>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
