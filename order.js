@@ -28,7 +28,7 @@ list.forEach(item => {
 function Remove($key){
     let listCart = document.querySelectorAll('.cart.item');
     listCart.forEach(item => {
-        if(item.getAttribute('data-key') == $key){
+        if(event.target.classList.item.getAttribute('data-key') == $key){
             item.remove();
             return;
         }

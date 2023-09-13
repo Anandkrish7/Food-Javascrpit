@@ -15,7 +15,7 @@
     
    
    header #logo {
-   color: var(--theme-primary, #ffb30e);
+   color:  #ffb30e;
    font-family: "Qwigley", cursive;
    font-size: 80px;
    font-style: normal;
@@ -101,7 +101,7 @@
    }
  
 body{
-    background-color: #fff
+    background-color: #fff;
     font-family: Open Sans;
     overflow: hidden;
 
@@ -110,7 +110,7 @@ body{
 .container{
     width: 1200px;
     border: 2px solid #F17228;
-;
+
     max-width: 100%;
     margin: 50px auto 0;
     display: grid;

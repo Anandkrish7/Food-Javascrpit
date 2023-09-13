@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="add.css" />
+</head>
+<body>
+    <header>
+        <div class="nav container">
+            <a href="#" class="logo">Hot Meals</a>
+            <i class="fa-solid fa-cart-shopping" id="cart-icon"></i>
+
+            <div class="cart">
+                <h2 class="cart-title">Your Cart</h2>
+                <div class="cart-content">
+                    <div class="cart-box">
+                        <img src="./asset/masaldosa.jpg" class="cart-img">
+                        <div class="detail-box">
+                            <div class="cart-dish-title">Masal Dosa</div>
+                            <div class="cart-price">Rs.100</div>
+                            <input type="number" value="1" class="cart-quantity">
+                        </div>
+                        <i class="fa-solid fa-trash cart-remove"></i>
+                    </div>
+                </div>
+                <div class="total">
+                    <div class="total-title">Total</div>
+                    <div class="total-price">Rs.0</div>
+                </div>
+                <button type="button" class="btn-buy">Buy Now</button>
+                <i class="fa-solid fa-x"  id="close-cart"></i>
+            </div>
+        </div>
+    </header>
+    
+    <section class="dish container">
+        <h2 class="section-title">Dosa's</h2>
+        <div class="dish-content">
+            <div class="dish-box">
+                <img src="./asset/masaldosa.jpg" class="dish-img">
+                <h2 class="dish-title">Masala Dosa</h2>
+                <span class="price">Rs. 100</span>
+                <i class="fa-solid fa-cart-shopping add-cart"></i>
+            </div>
+            <div class="dish-box">
+                <img src="./asset/oatsdosa.jpg" class="dish-img">
+                <h2 class="dish-title">Oats Dosa</h2>
+                <span class="price">Rs. 120</span>
+                <i class="fa-solid fa-cart-shopping add-cart"></i>
+            </div>
+            <div class="dish-box">
+                <img src="./asset/ragidosa.jpg" class="dish-img">
+                <h2 class="dish-title">Ragi Dosa</h2>
+                <span class="price">Rs. 90</span>
+                <i class="fa-solid fa-cart-shopping add-cart"></i>
+            </div>
+            <div class="dish-box">
+                <img src="./asset/paperdosa.jpg" class="dish-img">
+                <h2 class="dish-title">Paper Dosa</h2>
+                <span class="price">Rs. 80</span>
+                <i class="fa-solid fa-cart-shopping add-cart"></i>
+            </div>
+        </div>
+    </section>
+
+    <script src="add.js"></script>
+</body>
+</html>
